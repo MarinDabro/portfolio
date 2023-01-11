@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.903fdf29.css",
+    "main.js": "/portfolio/static/js/main.62af4964.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/html-css-js.png": "/portfolio/static/media/html-css-js.4a5cda225aef015f76b8.png",
+    "static/media/flightconnect.png": "/portfolio/static/media/flightconnect.921c34a610cbd63819cb.png",
+    "static/media/react.png": "/portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/mylogo-colored.png": "/portfolio/static/media/mylogo-colored.1035d72ba3da5b977248.png",
+    "static/media/node-js-new.png": "/portfolio/static/media/node-js-new.175eebd2a73af28c6e0e.png",
+    "static/media/mongo.png": "/portfolio/static/media/mongo.ece61a5e4d67f525d140.png",
+    "static/media/laptop.png": "/portfolio/static/media/laptop.ddeaa4b458a1736ba426.png",
+    "index.html": "/portfolio/index.html",
+    "main.903fdf29.css.map": "/portfolio/static/css/main.903fdf29.css.map",
+    "main.62af4964.js.map": "/portfolio/static/js/main.62af4964.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.903fdf29.css",
+    "static/js/main.62af4964.js"
+  ]
+}
