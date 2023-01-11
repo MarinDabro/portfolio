@@ -55,10 +55,10 @@ function App() {
 
         {downloadActive ? <Downloads /> : null}
         <div className="logos">
-          <a href="">
+          <a href='https://github.com/MarinDabro' target='_blank'>
             <FontAwesomeIcon className='icon' icon={faGithubSquare} />
           </a>
-          <a href="">
+          <a href='https://www.linkedin.com/in/marin-dabro/' target='_blank'>
             <FontAwesomeIcon className='icon' icon={faLinkedin} />
           </a>
 
