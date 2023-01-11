@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.home {
+  width: calc(95vw - 2.5rem);
+  height: calc(85vh - 2.5rem);
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+  left: 0;
+
+  transition: .4s
+}
+
+.home.inactive {
+  left: -100vw;
+  transition: .4s
+}
+
+.home div:first-of-type {
+  height: 100%;
+  width: 40%;
+}
+
+.home div h2 {
+  font-size: 5rem;
+  margin-top: 15rem;
+  margin-left: 2.8rem;
+  font-family: 'Baloo 2';
+  letter-spacing: .2rem
+}
+
+.home div h3 {
+  font-size: 1.7rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Baloo 2';
+}
+
+.home div p {
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-bottom: .5rem;
+  font-family: 'Baloo 2';
+}
+
+.home div .contact {
+  font-size: 2rem;
+  margin-left: 3rem
+}
+
+
+.home div .contact:hover {
+  color: #CEECD7
+}
+
+.home div:nth-of-type(2) {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: center
+}
+.home div:last-of-type {
+  height: 100%;
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.home section {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center
+}
+.home section:first-of-type {
+  width: 410px;
+}
+
+.home section:last-of-type {
+  width: 380px;
+}
+
+
+
+.laptop {
+  padding-top: 5rem;
+  height: 700px;
+  width: 800px;
+}
+
+
+.home div section img {
+}
+.react {
+  height: 100px
+}
+
+.basics {
+  height: 110px
+}
+
+
+.node {
+  height: 100px
+}
+
+.mongo {
+  height: 100px
+}
+
+.git {
+  height: 90px
+}
+
+.npm {
+  width: 150px;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.portfolio {
+  width: calc(95vw - 2.5rem);
+  height: calc(85vh - 2.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  left: 100vw;
+
+  transition: .4s
+}
+
+.portfolio.active {
+  left: 0;
+  transition: .4s
+}
+
+
+
+.showcase {
+  display: flex;
+  height:100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 15px auto;
+  padding: 10px 0;
+}
+
+
+.showcase h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: 'Baloo 2';
+}
+
+.showcase a {
+  width: fit-content;
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-family: 'Baloo 2';
+}
+
+.showcase a:hover {
+  color: #CEECD7
+}
+
+.showcase-container {
+  heigth: 100rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: none
+}
+
+.flip-container {
+  perspective: 1000px;
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.flipper {
+  width: 45rem;
+  height: 24.5rem;
+  transition: 0.6s; 
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card {
+  background-image: url(../media/react.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+        
+.card, .card-back {
+  backface-visibility: hidden;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+.card-back {
+  transform: rotateY(180deg);
+  background-color: #333333;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(../images/rose-back.png); */
+  background-position: center;
+  background-size: cover;
+  font-family: 'Baloo 2';
+}
+
+.card-back p {
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.flip-container:first-of-type .card {
+  background-image: url(../media/flightconnect.png)
+  /* background-image: url(../images/sword.png); */
+}
+  
+.flip-container:first-of-type .card-back {
+  /* background-image: url(../images/sword-back.png); */
+}
+
+.flip-container:last-of-type .card {
+  opacity: 70%;
+  /* background-image: url(../images/ring.png); */
+}
+
+.flip-container:last-of-type .card-back {
+  text-align: center;
+  /* background-image: url(../images/ring-back.png); */
+}
+
+
+.flip-container:first-of-type:hover .flipper, .flip-container:first-of-type.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container:last-of-type:hover .flipper, .flip-container:last-of-type.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+

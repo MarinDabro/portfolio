@@ -1,0 +1,19 @@
+.downloads {
+  width: 15rem;
+  height: 5rem;
+  position: absolute;
+  top: 5rem;
+  right: 0
+}
+
+.downloads a {
+  display: block;
+  width: 15rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.downloads a:hover {
+  color: #CEECD7
+}
