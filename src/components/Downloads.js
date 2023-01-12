@@ -5,10 +5,10 @@ const Downloads = () => {
   
   return (
     <div className='downloads'>
-      <a href='/public/CV_MarinDabro_EN.pdf' download>
+      <a href='./CV_MarinDabro_EN.pdf' download>
         <p>CV</p>
       </a>
-      <a href='/public/CV_MarinDabro_DE.pdf' download>
+      <a href='./CV_MarinDabro_DE.pdf' download>
         <p>Lebenslauf</p>
       </a>
     </div>
