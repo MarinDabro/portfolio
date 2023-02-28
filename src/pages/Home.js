@@ -19,9 +19,9 @@ const Home = ({openEmail}) => {
       <div>
         <h2>Welcome.</h2>
         <h3>Hi, my name is Marin Dabro - Junior Web Developer.</h3>
-        <p>I enjoy working on challenging projects that give me lots of bugs to solve and push me to dive deep into the documentation to understand the underlying proccesses and abstractions beneath my code.</p>
+        <p>I enjoy working on challenging projects that give me lots of bugs to solve and push me to dive into the documentation.</p>
         <p>As a curious person I am naturally motivated to investigate and find myself interested not only in all things tech but in a lot of different topics and like to share, listen and discuss with others.</p>
-        <p>I am currently searching for my first job and looking forward to be part of a team working on a real product. If you want to know more about me i will be glad to have a chat together.</p>
+        <p>I am currently searching for an Internship and looking forward to be part of a team working on a real product. If you want to know more about me i will be glad to have a chat together.</p>
         <FontAwesomeIcon onClick={openEmail} className='contact' icon={faEnvelope} />
       </div>
       <div>

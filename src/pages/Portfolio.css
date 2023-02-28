@@ -52,7 +52,7 @@
 }
 
 .showcase-container {
-  heigth: 100rem;
+  height: 100rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -108,6 +108,7 @@
 .card-back p {
   width: 70%;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .flip-container:first-of-type .card {
@@ -121,7 +122,7 @@
 
 .flip-container:last-of-type .card {
   opacity: 70%;
-  /* background-image: url(../images/ring.png); */
+  background-image: url(../media/soundwise.png);
 }
 
 .flip-container:last-of-type .card-back {
